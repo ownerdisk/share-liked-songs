@@ -1,7 +1,7 @@
 export const scope = "user-read-private user-read-email user-library-read playlist-modify-public playlist-modify-private";
 
 export const client_id = "0fda30abbc1948b6bf16d6872f3c99c6";
-export const redirect_uri = "https://ownerdisk.github.io/share-liked-songs";
+export const redirect_uri = "https://ownerdisk.github.io/share-liked-songs/";
 
 export const endpoints = {
     authorize: "https://accounts.spotify.com/authorize",

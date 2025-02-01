@@ -10,7 +10,7 @@ All Credit and Authorship goes to the user [notnullish/sometimesdigital](https:/
 
 
 ### Is the application safe?
-All information is stored exclusively in your browser, with no personal data being collected. If you're a developer, you can verify the security of the application by reviewing the [source code](https://github.com/ownerdisk/spotify-share-liked-songs)
+All information is stored exclusively in your browser, with no personal data being collected. If you're a developer, you can verify the security of the application by reviewing the [source code](https://github.com/ownerdisk/share-liked-songs)
 
 ### If something doesn't work:
   - try running the app in the private / incognito mode,
