@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+footer {
+    color: color-mix(in srgb, currentColor 50%, transparent);
+    font-size: .9em !important;
+}
+
+main {
+    padding: 0 calc((100vw - min(100%, 400px)) / 2);
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background: currentColor
+}
+
+a {
+    text-decoration-line: underline;
+}
+
+a:hover,
+a:focus-visible {
+    outline: none;
+    color: #f6f6f6;
+    transition-duration: .2s;
+}
+
+main:has(article) {
+    padding: 0 calc((100vw - min(100%, 800px)) / 2);
+}
+
+.loader {
+    animation: spin 1s linear infinite;
+    margin: auto;
+}
+
+.icon {
+    vertical-align: bottom;
+}
+
+.view-playlist a {
+    text-decoration: none;
+}
+
+.view-playlist a:hover {
+    text-decoration: underline;
+    text-underline-offset: .2lh;
+}
+
+

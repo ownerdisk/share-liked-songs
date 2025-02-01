@@ -1,0 +1,29 @@
+article h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+article h3 {
+    font-weight: 500;
+    font-size: 1.17em;
+}
+
+article ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+article p {
+    margin-inline-start: 2em !important;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
