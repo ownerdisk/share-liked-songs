@@ -26,6 +26,11 @@ const GeneratePlaylistPage = () => {
             </div>
             <div hidden={isFetching}>
                 <Button onClick={handleChange} >Generate Your Playlist</Button>
+                <div className="or w-full relative text-center text-[#888384] from-current via-current to-transparent py-4 select-none">or</div>
+                <form>
+                    <label className="select-none mb-2 display-block">Update an existing playlist</label>
+                    <div className="help">Paste the URL of a playlist that you want to update above. The previously generated playlist is saved by default.</div>
+                </form>
             </div>
         </section>
     )

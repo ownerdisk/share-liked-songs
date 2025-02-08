@@ -52,4 +52,30 @@ main:has(article) {
     text-underline-offset: .2lh;
 }
 
+.or::before {
+    content: "";
+    width: calc(50% - 2ch);
+    height: 1px;
+    background: currentColor;
+    display: block;
+    position: absolute;
+    top: 50%;
+}
 
+.or:after {
+    content: "";
+    width: calc(50% - 2ch);
+    height: 1px;
+    background: currentColor;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+form .help {
+    padding-top: .5lh;
+    font-size: .9em;
+    color:
+    color-mix(in srgb, currentColor 40%, transparent);
+}
