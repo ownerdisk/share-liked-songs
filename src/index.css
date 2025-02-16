@@ -79,3 +79,19 @@ form .help {
     color:
     color-mix(in srgb, currentColor 40%, transparent);
 }
+
+form .input {
+    display: flex;
+    flex-direction: row;
+    gap: 1ch;
+    align-items: center;
+    background-color: #121212;
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+}
+
+form input {
+    width: 100%;
+    font-size: 16px;
+}

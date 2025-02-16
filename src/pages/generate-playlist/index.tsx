@@ -4,6 +4,8 @@ import { Button, Heart, Loader } from "../../components";
 import { generatePlaylist } from "../../utils/data";
 
 import { ContextUser } from "../../interface/user";
+import { RecordIcon } from "../../components/Icons/RecordIcon";
+import { ArrowRightIcon } from "../../components/Icons/ArrowRightIcon";
 
 const GeneratePlaylistPage = () => {
     const [isFetching, setFetching] = useState(false)
@@ -28,7 +30,14 @@ const GeneratePlaylistPage = () => {
                 <Button onClick={handleChange} >Generate Your Playlist</Button>
                 <div className="or w-full relative text-center text-[#888384] from-current via-current to-transparent py-4 select-none">or</div>
                 <form>
-                    <label className="select-none mb-2 display-block">Update an existing playlist</label>
+                    <label className="select-none block pb-[.5lh] display-block">Update an existing playlist</label>
+                    <div className="input">
+                        <RecordIcon />
+                        <input type="text" className="h-[1.9lh]" placeholder="Paste the playlist URL Here" />
+                        <button>
+                            <ArrowRightIcon />
+                        </button>
+                    </div>
                     <div className="help">Paste the URL of a playlist that you want to update above. The previously generated playlist is saved by default.</div>
                 </form>
             </div>
